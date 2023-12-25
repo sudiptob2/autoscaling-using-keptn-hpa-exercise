@@ -25,7 +25,7 @@ kubectl port-forward svc/podtato-head-entry 9000:9000 -n podtato-kubectl
 ```
 Now, visit `http://localhost:9000/` in your browser, and you should see the PodtatoHead app.
 
-![img.png](assets/img.png){:width="200px"}
+![img.png](assets/img.png)
 
 ## Verify Prometheus Is Collecting Metrics
 Let's verify that Prometheus is collecting metrics from our PodtatoHead app. First, port-forward Prometheus to your local machine:
