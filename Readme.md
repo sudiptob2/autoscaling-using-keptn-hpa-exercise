@@ -1,6 +1,9 @@
-# Keptn Metrics Provider exercise
-This exercise will demonstrate how to use the Keptn Metrics Provider to scale an application based on a custom metric.
+# Scaling kubernetes workloads using HPA + Prometheus + Keptn Metrics
 
+Kubernetes has ways to extend its metrics APIs, they have limitations, especially that they only allow you to use a single observability platform 
+such as Prometheus, Dynatrace or Datadog. The Keptn Metrics Operator solves this problem by providing a
+single entry point for all your metrics data, regardless of its source, so you can use multiple instances of multiple observability platforms.
+![img.png](assets/kptn-HpA.drawio.svg)
 ## Install Kind Cluster
 For this demo, I will use the `kind` local Kubernetes cluster. You can install it by following the instructions [here](https://kind.sigs.k8s.io/docs/user/quick-start/).
 
